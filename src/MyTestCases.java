@@ -4,11 +4,22 @@ import org.testng.annotations.Test;
 
 public class MyTestCases {
 @BeforeTest
-public void MyBeforeTest() {}
+public void MyBeforeTest() {
+	System.out.println("Hello");
+}
 
 @Test()
-public void MyTest() {}
+public void MyTest() {
+	System.out.println("Hey there");
+
+}
+
 
 @AfterTest
-public void MyAfterTest() {}
+public void MyAfterTest() {
+	
+	System.out.println("Candles");
+
+}
+
 }
