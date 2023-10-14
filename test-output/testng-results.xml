@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-14T13:25:15 EEST" name="Default suite" finished-at="2023-10-14T13:26:50 EEST" duration-ms="95033">
+  <suite started-at="2023-10-14T20:48:19 EEST" name="Default suite" finished-at="2023-10-14T20:53:09 EEST" duration-ms="290216">
     <groups>
     </groups>
-    <test started-at="2023-10-14T13:25:15 EEST" name="Default test" finished-at="2023-10-14T13:26:50 EEST" duration-ms="95033">
+    <test started-at="2023-10-14T20:48:19 EEST" name="Default test" finished-at="2023-10-14T20:53:09 EEST" duration-ms="290216">
       <class name="MyTestCases">
-        <test-method is-config="true" signature="MyBeforeTest()[pri:0, instance:MyTestCases@287f94b1]" started-at="2023-10-14T13:25:15 EEST" name="MyBeforeTest" finished-at="2023-10-14T13:26:02 EEST" duration-ms="46684" status="PASS">
+        <test-method is-config="true" signature="MyBeforeTest()[pri:0, instance:MyTestCases@30b34287]" started-at="2023-10-14T20:48:19 EEST" name="MyBeforeTest" finished-at="2023-10-14T20:49:26 EEST" duration-ms="66739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyBeforeTest -->
-        <test-method signature="SignUpWithRandomlyEmails()[pri:1, instance:MyTestCases@287f94b1]" started-at="2023-10-14T13:26:02 EEST" name="SignUpWithRandomlyEmails" description="Test # 1" finished-at="2023-10-14T13:26:38 EEST" duration-ms="35824" status="PASS">
+        <test-method signature="SignUpWithRandomlyEmails()[pri:1, instance:MyTestCases@30b34287]" started-at="2023-10-14T20:49:26 EEST" name="SignUpWithRandomlyEmails" description="Test # 1" finished-at="2023-10-14T20:49:46 EEST" duration-ms="19791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithRandomlyEmails -->
-        <test-method signature="SignIn()[pri:2, instance:MyTestCases@287f94b1]" started-at="2023-10-14T13:26:38 EEST" name="SignIn" description="Test # 2" finished-at="2023-10-14T13:26:50 EEST" duration-ms="12448" status="PASS">
+        <test-method signature="SignIn()[pri:2, instance:MyTestCases@30b34287]" started-at="2023-10-14T20:49:46 EEST" name="SignIn" description="Test # 2" finished-at="2023-10-14T20:50:58 EEST" duration-ms="72225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignIn -->
+        <test-method signature="Add_To_Cart()[pri:3, instance:MyTestCases@30b34287]" started-at="2023-10-14T20:50:58 EEST" name="Add_To_Cart" description="Test # 3" finished-at="2023-10-14T20:53:09 EEST" duration-ms="131405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_To_Cart -->
       </class> <!-- MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
