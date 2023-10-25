@@ -343,7 +343,7 @@ public class MyTestCases {
 			Sum += finalPrice * NItems;
 
 		}
-
+// you can use replace method replace $ and .00 with nothen then convert to int then /100 and use the integer number instead of string
 		System.out.println("$" + Sum + ".00");
 		String StringSum = "$" + Sum + ".00";
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
