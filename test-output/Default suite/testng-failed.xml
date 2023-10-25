@@ -5,9 +5,7 @@
     <classes>
       <class name="MyTestCases">
         <methods>
-          <include name="SignUpWithRandomlyEmails"/>
-          <include name="SignIn"/>
-          <include name="Add_To_Cart"/>
+          <include name="invoice"/>
           <include name="MyBeforeTest"/>
         </methods>
       </class> <!-- MyTestCases -->
